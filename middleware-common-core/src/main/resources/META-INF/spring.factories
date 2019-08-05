@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.lotstock.eddid.common.core.config.JacksonConfig,\
+  com.lotstock.eddid.common.core.i18n.LocaleConfig,\
+  com.lotstock.eddid.common.core.config.RestTemplateConfig,\
+  com.lotstock.eddid.common.core.util.SpringContextHolder

@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  org.springframework.cloud.openfeign.MiddlewareHystrixFeignTargeterConfiguration,\
+  com.lotstock.eddid.common.security.component.GlobalExceptionHandlerResolver,\
+  com.lotstock.eddid.common.security.service.MiddlewareUserDetailsServiceImpl

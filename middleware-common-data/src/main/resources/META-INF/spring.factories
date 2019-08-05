@@ -1,0 +1,8 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    com.lotstock.eddid.common.data.cache.RedisTemplateConfig,\
+    com.lotstock.eddid.common.data.cache.RedisCacheManagerConfig,\
+    com.lotstock.eddid.common.data.cache.RedisCacheAutoConfiguration,\
+    com.lotstock.eddid.common.data.tenant.MiddlewareTenantConfigProperties,\
+    com.lotstock.eddid.common.data.tenant.TenantContextHolderFilter,\
+    com.lotstock.eddid.common.data.tenant.MiddlewareFeignTenantConfiguration,\
+    com.lotstock.eddid.common.data.mybatis.MybatisPlusConfig

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.lotstock.eddid</groupId>
+    <artifactId>middleware-common</artifactId>
+    <packaging>pom</packaging>
+
+    <version>1.1.0-SNAPSHOT</version>
+    <properties>
+        <middleware-common.version>1.1.0-SNAPSHOT</middleware-common.version>
+        <maven.deploy.skip>true</maven.deploy.skip>
+    </properties>
+
+    <modules>
+        <module>middleware-common-core</module>
+        <module>middleware-common-security</module>
+        <module>middleware-common-param</module>
+        <module>middleware-common-swagger</module>
+        <module>middleware-common-gateway</module>
+        <module>middleware-common-data</module>
+        <module>middleware-common-log</module>
+        <module>middleware-common-minio</module>
+    </modules>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.5.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>rdc-snapshots</id>
+            <url>https://repo.rdc.aliyun.com/repository/72276-snapshot-cnifCo/</url>
+        </snapshotRepository>
+        <repository>
+            <id>rdc-releases</id>
+            <url>https://repo.rdc.aliyun.com/repository/72276-release-Q1c5z6/</url>
+        </repository>
+    </distributionManagement>
+
+
+</project>
