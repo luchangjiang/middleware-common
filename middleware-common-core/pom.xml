@@ -24,7 +24,7 @@
         <ttl.version>2.10.2</ttl.version>
         <servlet-api.version>4.0.1</servlet-api.version>
         <hutool-version>4.5.16</hutool-version>
-        <fastjson.version>1.2.36</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
     </properties>
     <dependencies>
         <!--hutool-->
